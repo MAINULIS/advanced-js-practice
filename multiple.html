@@ -5,8 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Double-Triple</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
 </head>
 <body>
+    <h1 class=" mt-12 text-5xl font-semibold w-9/12 mx-auto text-center text-blue-500"> Welcome to <span class="text-sky-700">Dhola BaBa</span> Magic website</h1>
     
+    <section class="mt-16">
+        <div class="grid grid-cols-2 gap-6 w-9/12 mx-auto ">
+           <div class="bg-indigo-400 hover:bg-indigo-500 rounded-xl p-10">
+            <h4 class="text-2xl text-stone-600 text-medium mb-4">Enter a Number</h4>
+            <input class="w-9/12 block mb-4 ps-3" type="text" name="" id="input-number" placeholder="Enter a magic number">
+            <h2 id="output" class="text-3xl text-white text-semibold mb-5 text-center hover:text-fuchsia-700">00</h2>
+            <button id="btn-double" class="bg-lime-500 hover:bg-lime-700 px-8 py-2 rounded-xl">Double</button>
+           </div>
+           <div class="bg-sky-400 hover:bg-sky-500 rounded-xl p-10">
+            <h4 class="text-2xl text-stone-600 text-medium mb-4">Enter a Number</h4>
+            <input class="w-9/12 block mb-4 ps-3" type="text" name="" id="input-number" placeholder="Enter a magic number">
+            <h2 id="output" class="text-3xl text-white text-semibold mb-5 text-center hover:text-fuchsia-700">00</h2>
+            <button id="btn-double" class="bg-lime-500 hover:bg-lime-700 px-8 py-2 rounded-xl">Triple</button>
+           </div>
+
+        </div>
+    </section>
+ 
+    <script src="js/multiple.js"></script>
 </body>
 </html>
