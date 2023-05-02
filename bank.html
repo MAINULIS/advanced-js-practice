@@ -23,7 +23,7 @@
             </div>
             <div class="bg-lime-500 hover:bg-lime-600 text-white  w-3/4 mx-auto p-8 rounded-xl">
                 <h4 class="text-3xl font-medium ">Withdraw</h4>
-                <h2 class="text-3xl font-semibold">$<span>00</span></h2>
+                <h2 class="text-3xl font-semibold">$<span id="withdraw-total">00</span></h2>
             </div>
             <div class="bg-sky-500 hover:bg-sky-600 text-white w-3/4 mx-auto p-8  rounded-xl">
                 <h4 class="text-3xl font-medium ">Balance</h4>
@@ -40,8 +40,8 @@
             </div>
             <div class=" w-3/4 mx-auto bg-purple-500 p-12 rounded-xl">
                 <h4 class="text-3xl font-semibold text-white mb-4">please Withdraw</h4>
-                <input class="w-3/4 block bg-teal-100 px-4 py-2 mb-4" type="text" name="" id="" placeholder="$ Amount You Want To Withdraw">
-                <button class="bg-sky-500 hover:bg-sky-700 px-4 py-2 text-2xl rounded-xl mb-4">Withdraw</button>
+                <input class="w-3/4 block bg-teal-100 px-4 py-2 mb-4" type="text" name="" id="withdraw-field" placeholder="$ Amount You Want To Withdraw">
+                <button id="btn-withdraw" class="bg-sky-500 hover:bg-sky-700 px-4 py-2 text-2xl rounded-xl mb-4">Withdraw</button>
             </div>
 
         </div>
@@ -51,6 +51,7 @@
 
    <script src="js/utilities.js"></script>
    <script src="js/deposit.js"></script>
+   <script src="js/withdraw.js"></script>
 </body>
 
 </html>
