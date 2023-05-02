@@ -14,7 +14,7 @@ document.getElementById('btn-double').addEventListener('click', function(){
     const outputElement = document.getElementById('output');
     const previousOutputResultString = outputElement.innerText;
     const previousOutputResult = parseFloat(previousOutputResultString);
-    console.log(previousOutputResult)
+    
 
     // step-3: calculate the result
     const newResult = inputFieldValue * 2 ;
