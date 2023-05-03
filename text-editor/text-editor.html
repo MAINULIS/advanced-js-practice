@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Text Editor</title>
+    <!-- font-awesome  -->
+    <script src="https://kit.fontawesome.com/0e07d2bb97.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-sky-400 ">
+    <header class="mt-16">
+        <h1 class="text-5xl font-semibold w-3/4 mx-auto text-center"> My Text Editor</h1>
+    </header>
+    <section>
+        <div class="w-3/4 mx-auto flex justify-around p-8 mt-12 bg-lime-300">
+            <nav class="text-3xl flex justify-around block gap-4 ">
+                <button type="button" onclick="f1()">
+                    <i class="fa-solid fa-bold"></i>
+                </button>
+
+                <button type="button" onclick="f2()">
+                    <i class="fa-solid fa-italic"></i>
+                </button>
+                <button type="button" onclick="f3()">
+                    <i class="fa-solid fa-underline"></i>
+                </button>
+            </nav>
+            <nav class="text-3xl flex justify-around block gap-4">
+                <button type="button" onclick="f4()">
+                    <i class="fa-solid fa-align-left"></i>
+                </button>
+                <button type="button" onclick="f5()">
+                    <i class="fa-solid fa-align-center"></i>
+                </button>
+                <button type="button" onclick="f6()">
+                    <i class="fa-solid fa-align-right"></i>
+                </button>
+            </nav>
+            <nav class=" text-3xl flex justify-around block gap-4">
+
+                <input onclick="f7()" class="block w-1/2" type="number" name="" id="font-size">
+
+                <!-- color -->
+            
+                <input type="color" id='color'>Color</input>
+
+                <button onclick="f9()">Clear</button>
+            </nav>
+        </div>
+
+        <div class="mt-6 w-3/4 mx-auto p-8">
+            <textarea class="block w-1/2 justify-center p-4 m-5 text-3xl" name="" id="textarea" cols="130"
+                rows="20"></textarea>
+        </div>
+
+    </section>
+    <script src="text-editor.js"></script>
+</body>
+
+</html>
